@@ -6,13 +6,13 @@
 
 // Database Configuration
 define('DB_HOST', 'localhost');           // Usually 'localhost' for shared hosting
-define('DB_NAME', 'your_database_name');  // Your hosting database name
-define('DB_USER', 'your_db_username');    // Your hosting database username
-define('DB_PASS', 'your_db_password');    // Your hosting database password
+define('DB_NAME', 'u743445510_hima_support');  // Your hosting database name
+define('DB_USER', 'u743445510_hima_support');    // Your hosting database username
+define('DB_PASS', 'HimaSupport@2025');    // Your hosting database password
 define('DB_PORT', '3306');                // Usually '3306' for MySQL
 
 // Application Configuration
-define('APP_URL', 'https://yourdomain.com/query-desk/');  // Your website URL
+define('APP_URL', 'http://support.himaapp.in/query-desk/');  // Your website URL
 define('UPLOAD_PATH', __DIR__ . '/uploads/');             // Upload directory path
 
 // Security Configuration
