@@ -22,9 +22,9 @@ function get_pdo(): PDO {
 
     $host = env('DB_HOST', 'localhost');
     $port = env('DB_PORT', '3306');
-    $db   = env('DB_NAME', 'query_desk');
-    $user = env('DB_USER', 'root');
-    $pass = env('DB_PASS', '');
+    $db   = env('DB_NAME', 'u743445510_hima_support');
+    $user = env('DB_USER', 'u743445510_hima_support');
+    $pass = env('DB_PASS', 'HimaSupport@2025');
 
     $dsn = sprintf('mysql:host=%s;port=%s;dbname=%s;charset=utf8mb4', $host, $port, $db);
     $pdo = new PDO($dsn, $user, $pass, [
